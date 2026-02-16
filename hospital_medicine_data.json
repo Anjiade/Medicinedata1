@@ -1,0 +1,82 @@
+{
+    "hospitals": [
+        {
+            "hospital_id": "H001",
+            "hospital_name": "City Care Hospital",
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "capacity": 250,
+            "emergency_available": true,
+            "medicines_available": [
+                {
+                    "medicine_id": "M001",
+                    "medicine_name": "Paracetamol",
+                    "category": "Pain Relief",
+                    "stock_quantity": 500,
+                    "price": 25.5,
+                    "expiry_date": "2025-12-31"
+                },
+                {
+                    "medicine_id": "M002",
+                    "medicine_name": "Ibuprofen",
+                    "category": "Pain Relief",
+                    "stock_quantity": 300,
+                    "price": 45.0,
+                    "expiry_date": "2024-08-15"
+                }
+            ]
+        },
+        {
+            "hospital_id": "H002",
+            "hospital_name": "Sunrise Medical Center",
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "capacity": 180,
+            "emergency_available": true,
+            "medicines_available": [
+                {
+                    "medicine_id": "M003",
+                    "medicine_name": "Amoxicillin",
+                    "category": "Antibiotic",
+                    "stock_quantity": 200,
+                    "price": 75.75,
+                    "expiry_date": "2023-10-10"
+                },
+                {
+                    "medicine_id": "M004",
+                    "medicine_name": "Metformin",
+                    "category": "Diabetes",
+                    "stock_quantity": null,
+                    "price": 60.0,
+                    "expiry_date": "2026-05-01"
+                }
+            ]
+        },
+        {
+            "hospital_id": "H003",
+            "hospital_name": "Green Valley Hospital",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "capacity": null,
+            "emergency_available": false,
+            "medicines_available": [
+                {
+                    "medicine_id": "M005",
+                    "medicine_name": "Insulin",
+                    "category": "Diabetes",
+                    "stock_quantity": 150,
+                    "price": 350.0,
+                    "expiry_date": "2025-01-01"
+                },
+                {
+                    "medicine_id": "M006",
+                    "medicine_name": "Cetirizine",
+                    "category": "Allergy",
+                    "stock_quantity": 0,
+                    "price": 18.0,
+                    "expiry_date": "2024-03-20"
+                }
+            ]
+        }
+    ]
+}
